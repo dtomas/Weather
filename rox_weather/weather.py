@@ -30,14 +30,17 @@ class Units:
         
     def from_xml(self, root):
         for node in root.childNodes:
+            child_nodes = node.childNodes
+            if not child_nodes:
+                continue
             if node.nodeName == 'us':
-                self.speed = node.childNodes[0].data
+                self.speed = child_nodes[0].data
             elif node.nodeName == 'ut':
-                self.temperature = node.childNodes[0].data
+                self.temperature = child_nodes[0].data
             elif node.nodeName == 'up':
-                self.pressure = node.childNodes[0].data
+                self.pressure = child_nodes[0].data
             elif node.nodeName == 'ud':
-                self.distance = node.childNodes[0].data
+                self.distance = child_nodes[0].data
 
 class WeatherInfo:
     def __init__(self):
@@ -89,30 +92,39 @@ class WeatherInfoNow(WeatherInfo):
         self.dewpoint = 'N/A'
 
     def extract_node(self, node):
+        child_nodes = node.childNodes
+        if not child_nodes:
+            return
         if node.nodeName == 'lsup':
-            self.time = node.childNodes[0].data
+            self.time = child_nodes[0].data
         elif node.nodeName == 'obst':
-            self.location = node.childNodes[0].data
+            self.location = child_nodes[0].data
         elif node.nodeName == 'tmp':
-            self.temperature = node.childNodes[0].data
+            self.temperature = child_nodes[0].data
         elif node.nodeName == 'flik':
-            self.temperature_felt = node.childNodes[0].data
+            self.temperature_felt = child_nodes[0].data
         elif node.nodeName == 'bar':
             for child in node.childNodes:
+                child_nodes = child.childNodes
+                if not child_nodes:
+                    continue
                 if child.nodeName == 'r':
-                    self.pressure = child.childNodes[0].data
+                    self.pressure = child_nodes[0].data
                 elif child.nodeName == 'd':
-                    self.pressure_descr = child.childNodes[0].data
+                    self.pressure_descr = child_nodes[0].data
         elif node.nodeName == 'vis':
-            self.visibility = node.childNodes[0].data
+            self.visibility = child_nodes[0].data
         elif node.nodeName == 'uv':
             for child in node.childNodes:
+                child_nodes = child.childNodes
+                if not child_nodes:
+                    continue
                 if child.nodeName == 'i':
-                    self.uv = child.childNodes[0].data
+                    self.uv = child_nodes[0].data
                 elif child.nodeName == 't':
-                    self.uv_descr = child.childNodes[0].data
+                    self.uv_descr = child_nodes[0].data
         elif node.nodeName == 'dewp':
-            self.dewpoint = node.childNodes[0].data
+            self.dewpoint = child_nodes[0].data
             
     def __str__(self):
         seq = ["%s: %s\n" % (_("Time"), self.time)]
@@ -143,6 +155,8 @@ class WeatherInfoForecast(WeatherInfo):
         self.rain = 'N/A'
     
     def extract_node(self, node):
+        if not node.childNodes:
+            return
         if node.nodeName == 'ppcp':
             self.rain = node.childNodes[0].data
 
@@ -159,10 +173,15 @@ class WeatherForecast:
         self.day = root.getAttribute('t')
         self.date = root.getAttribute('dt')
         for node in root.childNodes:
+            child_nodes = node.childNodes
             if node.nodeName == 'hi':
-                self.hi = node.childNodes[0].data
+                if not child_nodes:
+                    continue
+                self.hi = child_nodes[0].data
             elif node.nodeName == 'low':
-                self.low = node.childNodes[0].data
+                if not child_nodes:
+                    continue
+                self.low = child_nodes[0].data
             elif node.nodeName == 'part':
                 day_or_night = node.getAttribute('p')
                 if day_or_night == 'd':
@@ -176,6 +195,8 @@ class Locations:
         
     def from_xml(self, doc):
         for node in doc.documentElement.childNodes:
+            if not node.childNodes:
+                continue
             if node.nodeName == 'loc':
                 id = node.getAttribute('id')
-                self.locations.update({id : node.childNodes[0].data})
+                self.locations[id] = node.childNodes[0].data
