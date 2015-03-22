@@ -7,6 +7,14 @@ Brief
 Weather is a panel-applet that shows the weather. If you click on it, it shows 
 the forecast.
 
+Installation
+~~~~~~~~~~~~
+Get Weather and its submodules from GitHub:
+
+$ git clone --recursive https://github.com/dtomas/Weather
+
+Then drag the Weather app dir to a ROX panel.
+
 Conditions
 ~~~~~~~~~~
 This program is free software; you can redistribute it and/or modify
