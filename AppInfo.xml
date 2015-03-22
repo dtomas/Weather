@@ -3,7 +3,7 @@
   <Summary>Shows the weather</Summary>
   <About>
     <Purpose>Show the weather</Purpose>
-    <Version>0.3.3</Version>
+    <Version>0.3.4</Version>
     <Author>Dennis Tomas &lt;den.t@gmx.de&gt;</Author>
     <Homepage>http://github.com/dtomas/Weather</Homepage>
   </About>

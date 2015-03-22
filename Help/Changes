@@ -2,6 +2,10 @@
 			Shows the weather on the panel
 			by Dennis Tomas
 
+0.3.4 (unreleased)
+~~~~~
+- Check for empty node lists, fixes IndexErrors.
+
 0.3.3
 ~~~~~
 - Moved location selection to options dialog.
