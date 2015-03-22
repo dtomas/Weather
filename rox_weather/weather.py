@@ -49,18 +49,24 @@ class WeatherInfo:
 
     def from_xml(self, root):
         for node in root.childNodes:
+            child_nodes = node.childNodes
+            if not child_nodes:
+                continue
             if node.nodeName == 'icon':
-                self.icon = node.childNodes[0].data
+                self.icon = child_nodes[0].data
             elif node.nodeName == 't':
-                self.description = node.childNodes[0].data
+                self.description = child_nodes[0].data
             elif node.nodeName == 'hmid':
-                self.humidity = node.childNodes[0].data
+                self.humidity = child_nodes[0].data
             elif node.nodeName == 'wind':
                 for child in node.childNodes:
+                    child_nodes = child.childNodes
+                    if not child_nodes:
+                        continue
                     if child.nodeName == 's':
-                        self.wind_speed = child.childNodes[0].data
+                        self.wind_speed = child_nodes[0].data
                     elif child.nodeName == 't':
-                        self.wind_dir = child.childNodes[0].data
+                        self.wind_dir = child_nodes[0].data
             else:
                 self.extract_node(node)
 
