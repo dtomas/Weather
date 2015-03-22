@@ -1,0 +1,6 @@
+_("Update interval (in minutes)")
+_("Days to forecast")
+_("Unit for temperature")
+_("Celsius (°C)")
+_("Fahrenheit (°F)")
+_("Location Code")

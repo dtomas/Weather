@@ -1,0 +1,613 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR ORGANIZATION
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2008-04-14 22:05+CEST\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: ENCODING\n"
+"Generated-By: pygettext.py 1.5\n"
+
+
+#: forecast_window.py:35
+msgid "Weather Forecast for "
+msgstr ""
+
+#: forecast_window.py:64 forecast_window.py:97
+msgid "Wind direction"
+msgstr ""
+
+#: forecast_window.py:71 forecast_window.py:104
+msgid "Wind speed"
+msgstr ""
+
+#: forecast_window.py:77 forecast_window.py:110 weather.py:122
+msgid "Humidity"
+msgstr ""
+
+#: forecast_window.py:83 forecast_window.py:116
+msgid "Rain"
+msgstr ""
+
+#: location_search_dialog.py:12
+msgid "Search weather location code"
+msgstr ""
+
+#: location_search_dialog.py:17
+msgid "Enter a city name or zip code:"
+msgstr ""
+
+#: location_search_dialog.py:35
+msgid "Results"
+msgstr ""
+
+#: tips:1
+msgid "Update interval (in minutes)"
+msgstr ""
+
+#: tips:2
+msgid "Days to forecast"
+msgstr ""
+
+#: tips:3
+msgid "Unit for temperature"
+msgstr ""
+
+#: tips:4
+msgid "Celsius (\302\260C)"
+msgstr ""
+
+#: tips:5
+msgid "Fahrenheit (\302\260F)"
+msgstr ""
+
+#: tips:6
+msgid "Location Code"
+msgstr ""
+
+#: weather.py:112
+msgid "Time"
+msgstr ""
+
+#: weather.py:113
+msgid "Location"
+msgstr ""
+
+#: weather.py:114
+msgid "Weather"
+msgstr ""
+
+#: weather.py:115
+msgid "Temperature"
+msgstr ""
+
+#: weather.py:119
+msgid "feels like"
+msgstr ""
+
+#: weather.py:123
+msgid "Pressure"
+msgstr ""
+
+#: weather.py:126
+msgid "Wind"
+msgstr ""
+
+#: weather.py:129
+msgid "Visibility"
+msgstr ""
+
+#: weather.py:130
+msgid "UV Index"
+msgstr ""
+
+#: weather.py:131
+msgid "Dew point"
+msgstr ""
+
+#: weather_box.py:62
+msgid "Forecast"
+msgstr ""
+
+#: weather_box.py:74
+msgid "Change Location..."
+msgstr ""
+
+#: weather_box.py:148
+msgid "Really quit the Weather applet?"
+msgstr ""
+
+#: weather_tips:1
+msgid "Monday"
+msgstr ""
+
+#: weather_tips:2
+msgid "Tuesday"
+msgstr ""
+
+#: weather_tips:3
+msgid "Wednesday"
+msgstr ""
+
+#: weather_tips:4
+msgid "Thursday"
+msgstr ""
+
+#: weather_tips:5
+msgid "Friday"
+msgstr ""
+
+#: weather_tips:6
+msgid "Saturday"
+msgstr ""
+
+#: weather_tips:7
+msgid "Sunday"
+msgstr ""
+
+#: weather_tips:8
+msgid "Snow to Rain"
+msgstr ""
+
+#: weather_tips:9
+msgid "Becoming Cloudy"
+msgstr ""
+
+#: weather_tips:10
+msgid "Blizzard"
+msgstr ""
+
+#: weather_tips:11
+msgid "Blizzard Conditions"
+msgstr ""
+
+#: weather_tips:12
+msgid "Blowing Snow"
+msgstr ""
+
+#: weather_tips:13
+msgid "Chance of Rain"
+msgstr ""
+
+#: weather_tips:14
+msgid "Chance of Rain/Snow"
+msgstr ""
+
+#: weather_tips:15
+msgid "Chance of Showers"
+msgstr ""
+
+#: weather_tips:16
+msgid "Chance of Snow"
+msgstr ""
+
+#: weather_tips:17
+msgid "Chance of Snow/Rain"
+msgstr ""
+
+#: weather_tips:18
+msgid "Chance of T-Storm"
+msgstr ""
+
+#: weather_tips:19
+msgid "Clear"
+msgstr ""
+
+#: weather_tips:20
+msgid "Clearing"
+msgstr ""
+
+#: weather_tips:21
+msgid "Clouds"
+msgstr ""
+
+#: weather_tips:22
+msgid "Cloudy"
+msgstr ""
+
+#: weather_tips:23
+msgid "Cloudy Periods"
+msgstr ""
+
+#: weather_tips:24
+msgid "Continued Hot"
+msgstr ""
+
+#: weather_tips:25
+msgid "Cumulonimbus Clouds Observed"
+msgstr ""
+
+#: weather_tips:26
+msgid "Drifting Snow"
+msgstr ""
+
+#: weather_tips:27
+msgid "Drizzle"
+msgstr ""
+
+#: weather_tips:28
+msgid "Dry"
+msgstr ""
+
+#: weather_tips:29
+msgid "Fair"
+msgstr ""
+
+#: weather_tips:30
+msgid "Flurries"
+msgstr ""
+
+#: weather_tips:31
+msgid "Fog"
+msgstr ""
+
+#: weather_tips:32
+msgid "Freezing Drizzle"
+msgstr ""
+
+#: weather_tips:33
+msgid "Freezing Rain"
+msgstr ""
+
+#: weather_tips:34
+msgid "Freezing Rain/Snow"
+msgstr ""
+
+#: weather_tips:35
+msgid "Frozen Precip"
+msgstr ""
+
+#: weather_tips:36
+msgid "Hazy"
+msgstr ""
+
+#: weather_tips:37
+msgid "Heavy Rain"
+msgstr ""
+
+#: weather_tips:38
+msgid "Heavy Snow"
+msgstr ""
+
+#: weather_tips:39
+msgid "Hot And Humid"
+msgstr ""
+
+#: weather_tips:40
+msgid "Ice Crystals"
+msgstr ""
+
+#: weather_tips:41
+msgid "Ice/Snow Mixture"
+msgstr ""
+
+#: weather_tips:42
+msgid "Increasing Clouds"
+msgstr ""
+
+#: weather_tips:43
+msgid "Isolated Showers"
+msgstr ""
+
+#: weather_tips:44
+msgid "Light Rain"
+msgstr ""
+
+#: weather_tips:45
+msgid "Light Snow"
+msgstr ""
+
+#: weather_tips:46
+msgid "Lightning Observed"
+msgstr ""
+
+#: weather_tips:47
+msgid "mild and breezy"
+msgstr ""
+
+#: weather_tips:48
+msgid "Mist"
+msgstr ""
+
+#: weather_tips:49
+msgid "Mostly Clear"
+msgstr ""
+
+#: weather_tips:50
+msgid "Mostly Cloudy"
+msgstr ""
+
+#: weather_tips:51
+msgid "Mostly Sunny"
+msgstr ""
+
+#: weather_tips:52
+msgid "N/A"
+msgstr ""
+
+#: weather_tips:53
+msgid "Occasional Sunshine"
+msgstr ""
+
+#: weather_tips:54
+msgid "Overcast"
+msgstr ""
+
+#: weather_tips:55
+msgid "Partial Clearing"
+msgstr ""
+
+#: weather_tips:56
+msgid "Partial Sunshine"
+msgstr ""
+
+#: weather_tips:57
+msgid "Partly Cloudy"
+msgstr ""
+
+#: weather_tips:58
+msgid "Partly Sunny"
+msgstr ""
+
+#: weather_tips:59
+msgid "Rain and Snow"
+msgstr ""
+
+#: weather_tips:60
+msgid "Rain or Snow"
+msgstr ""
+
+#: weather_tips:61
+msgid "Rain Showers"
+msgstr ""
+
+#: weather_tips:62
+msgid "Rain to Snow"
+msgstr ""
+
+#: weather_tips:63
+msgid "Rain / Snow Showers"
+msgstr ""
+
+#: weather_tips:64
+msgid "Showers"
+msgstr ""
+
+#: weather_tips:65
+msgid "Sleet"
+msgstr ""
+
+#: weather_tips:66
+msgid "Sleet and Snow"
+msgstr ""
+
+#: weather_tips:67
+msgid "Smoke"
+msgstr ""
+
+#: weather_tips:68
+msgid "Snow"
+msgstr ""
+
+#: weather_tips:69
+msgid "Snow and Rain"
+msgstr ""
+
+#: weather_tips:70
+msgid "Snow or Rain"
+msgstr ""
+
+#: weather_tips:71
+msgid "Snow Showers"
+msgstr ""
+
+#: weather_tips:72
+msgid "Sunny"
+msgstr ""
+
+#: weather_tips:73
+msgid "Thunder"
+msgstr ""
+
+#: weather_tips:74
+msgid "Thunder storms"
+msgstr ""
+
+#: weather_tips:75
+msgid "Variable Cloudiness"
+msgstr ""
+
+#: weather_tips:76
+msgid "Variable Clouds"
+msgstr ""
+
+#: weather_tips:77
+msgid "Wintry Mix"
+msgstr ""
+
+#: weather_tips:78
+msgid "Showers in the Vicinity"
+msgstr ""
+
+#: weather_tips:79
+msgid "Light Rain Shower"
+msgstr ""
+
+#: weather_tips:80
+msgid "Showers Late"
+msgstr ""
+
+#: weather_tips:81
+msgid "PM Showers"
+msgstr ""
+
+#: weather_tips:82
+msgid "Light Rain / Wind"
+msgstr ""
+
+#: weather_tips:83
+msgid "Scattered Showers"
+msgstr ""
+
+#: weather_tips:84
+msgid "PM Light Rain"
+msgstr ""
+
+#: weather_tips:85
+msgid "AM Showers"
+msgstr ""
+
+#: weather_tips:86
+msgid "AM Light Rain"
+msgstr ""
+
+#: weather_tips:87
+msgid "Partly Cloudy and Windy"
+msgstr ""
+
+#: weather_tips:88
+msgid "Few Showers"
+msgstr ""
+
+#: weather_tips:89
+msgid "Light Drizzle"
+msgstr ""
+
+#: weather_tips:90
+msgid "Mostly Cloudy and Windy"
+msgstr ""
+
+#: weather_tips:91
+msgid "Rain / Snow"
+msgstr ""
+
+#: weather_tips:92
+msgid "Rain and Sleet"
+msgstr ""
+
+#: weather_tips:93
+msgid "Snow Showers Late"
+msgstr ""
+
+#: weather_tips:94
+msgid "Light Drizzle and Windy"
+msgstr ""
+
+#: weather_tips:95
+msgid "Snow Shower"
+msgstr ""
+
+#: weather_tips:96
+msgid "Snow Showers Early"
+msgstr ""
+
+#: weather_tips:97
+msgid "Few Snow Showers"
+msgstr ""
+
+#: weather_tips:98
+msgid "rising"
+msgstr ""
+
+#: weather_tips:99
+msgid "steady"
+msgstr ""
+
+#: weather_tips:100
+msgid "falling"
+msgstr ""
+
+#: weather_tips:101
+msgid "Low"
+msgstr ""
+
+#: weather_tips:102
+msgid "Moderate"
+msgstr ""
+
+#: weather_tips:103
+msgid "High"
+msgstr ""
+
+#: weather_tips:104
+msgid "Very High"
+msgstr ""
+
+#: weather_tips:105
+msgid "Extreme"
+msgstr ""
+
+#: weather_tips:106
+msgid "S"
+msgstr ""
+
+#: weather_tips:107
+msgid "SSW"
+msgstr ""
+
+#: weather_tips:108
+msgid "SW"
+msgstr ""
+
+#: weather_tips:109
+msgid "WSW"
+msgstr ""
+
+#: weather_tips:110
+msgid "W"
+msgstr ""
+
+#: weather_tips:111
+msgid "WNW"
+msgstr ""
+
+#: weather_tips:112
+msgid "NW"
+msgstr ""
+
+#: weather_tips:113
+msgid "NNW"
+msgstr ""
+
+#: weather_tips:114
+msgid "N"
+msgstr ""
+
+#: weather_tips:115
+msgid "NNE"
+msgstr ""
+
+#: weather_tips:116
+msgid "NE"
+msgstr ""
+
+#: weather_tips:117
+msgid "ENE"
+msgstr ""
+
+#: weather_tips:118
+msgid "E"
+msgstr ""
+
+#: weather_tips:119
+msgid "ESE"
+msgstr ""
+
+#: weather_tips:120
+msgid "SE"
+msgstr ""
+
+#: weather_tips:121
+msgid "SSE"
+msgstr ""
+
+#: weather_tips:122
+msgid "CALM"
+msgstr ""
+

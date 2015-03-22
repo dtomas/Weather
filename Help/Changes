@@ -1,0 +1,83 @@
+			Weather
+			Shows the weather on the panel
+			by Dennis Tomas
+
+0.3.3
+~~~~~
+- Moved location selection to options dialog.
+
+0.3.2
+~~~~~
+- When '-' is received as icon or there's no icon available, show 
+   'not available' icon. (reported by Keith Hopper)
+
+0.3.1
+~~~~~
+- Take care of the forecast window's placement.
+
+0.3
+~~~
+- When the weather box is clicked, close forecast window if it's active. 
+   (suggested by Peter)
+- Don't decorate the forecast window. 
+- Only allow one forecast window.
+- Update forecast window when weather updated.
+- Update forecast window when forecast days option changed.
+- Use STOCK_DIALOG_INFO instead of STOCK_ABOUT.
+
+0.2.7
+~~~~~
+- Always get forecast data, for faster response to forecast action.
+- When urlopen fails (e.g. server or connection down), show 'n.a.'. 
+
+0.2.6
+~~~~~
+- Removed frame.
+- Added tooltips to the forecast window.
+- Show the real rain probability for the day.
+- Cache icons for faster access.
+- Added 'Help' and 'About' to the menu.
+- Added some separators to the menu.	
+		
+0.2.5
+~~~~~
+- Avoid an infinitely growing window. (reported by Armando Romero)
+- Reversed button-order in "Set Location" dialog.
+
+0.2.4
+~~~~~
+- Save options after selecting location. (reported by Frank Eising)
+- Better support for vertical panels. (Ken Hayber)
+- Call rox.app_options.notify() to create Options.xml at first run. (Ken Hayber)
+
+0.2.3
+~~~~~
+- Save default options. (Ken Hayber)
+- Show the time.
+- Changed unit of update-interval to minutes.
+- Added "update now" menu-item.
+- Don't update applet when "Set Location"-dialog cancelled.
+- Pressing enter in the "Set Location" entry field triggers the search.
+- Ensure only one instance of update() is running at a time.
+- Put try...except block around update-method, so updating doesn't stop on 
+   error. (Ken Hayber)
+- Resizing the panel now resizes the image. (suggested by Ken Hayber)
+
+0.2.2
+~~~~~
+- Updated german translation.
+- Menu-icons for "Forecast" and "Set Location".
+
+0.2.1
+~~~~~
+- Show the 'n.a.' icon when starting, to indicate the applet is running.
+
+0.2
+~~~
+- Completely reworked xml-parsing.
+- Now also runnable as app.
+- More weather-data.
+
+0.1
+~~~
+Initial release.

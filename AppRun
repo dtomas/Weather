@@ -1,0 +1,26 @@
+#! /usr/bin/env python
+# -*- coding: UTF-8 -*-
+
+import sys, os
+
+app_dir = os.path.join(os.path.dirname(__file__))
+
+sys.path.insert(0, app_dir)
+sys.path.insert(0, os.path.join(app_dir, 'rox-lib', 'ROX-Lib2', 'python'))
+
+import rox
+
+from rox_weather import location_option_widget
+
+__builtins__._ = rox.i18n.translation(os.path.join(rox.app_dir, 'Messages'))
+
+location_option_widget.register()
+
+if len(sys.argv) >= 2:
+	from rox_weather.weather_applet import WeatherApplet
+	WeatherApplet(sys.argv[1]).show_all()
+else:
+	from rox_weather.weather_window import WeatherWindow
+	WeatherWindow().show_all()
+
+rox.mainloop()

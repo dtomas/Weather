@@ -1,0 +1,12 @@
+<?xml version='1.0'?>
+<options>
+  <section>
+    <numentry name='update_interval' label='Update interval (in minutes)' min='10' max='2400' step='1'/>
+    <numentry name='forecast_days' label='Days to forecast' min='1' max='10' step='1'/>
+    <menu name="units" label="Unit for temperature">
+          <item value="m" label="Celsius (°C)"/>
+          <item value="i" label="Fahrenheit (°F)"/>
+    </menu>
+    <location_search name="location_code" label="Location Code"/>
+  </section>
+</options>
