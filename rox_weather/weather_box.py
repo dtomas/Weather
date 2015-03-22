@@ -12,7 +12,7 @@ import rox, os, gobject
 class WeatherBox:
 
     def __init__(self, vertical = False):
-        rox.setup_app_options("Weather", 'Options.xml', "rox4debian.berlios.de")
+        rox.setup_app_options("Weather", 'Options.xml', "dtomas")
         self.o_update_interval = options.Option("update_interval", 15)
         self.o_location = options.Option("location_code", "GMXX0049 (Hamburg, Germany)")
         self.o_units = options.Option("units", "m")
