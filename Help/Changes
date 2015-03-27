@@ -4,6 +4,7 @@
 
 0.3.4 (unreleased)
 ~~~~~
+- Updated email address.
 - Check for empty node lists, fixes IndexErrors.
 
 0.3.3
