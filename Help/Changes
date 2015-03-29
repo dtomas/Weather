@@ -4,6 +4,7 @@
 
 0.3.4 (unreleased)
 ~~~~~
+- Set widget name.
 - Check for empty node lists, fixes IndexErrors.
 
 0.3.3

@@ -6,6 +6,7 @@ class WeatherApplet(Applet, WeatherBox):
     def __init__(self, xid):
         Applet.__init__(self, xid)
         WeatherBox.__init__(self, self.is_vertical_panel())
+        self.set_name("WeatherPanelApplet")
         if self.is_vertical_panel():
             self.set_size_request(8, -1)
         else:
